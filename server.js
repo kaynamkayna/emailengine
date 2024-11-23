@@ -1533,7 +1533,7 @@ async function onCommand(worker, message) {
                 await setLicense(licenseData, licenseFile);
 
                 licenseInfo.active = true;
-                licenseInfo.details = licenseData;
+                licenseInfo.details = ' ';
                 licenseInfo.type = 'EmailEngine License';
 
                 // re-enable workers
